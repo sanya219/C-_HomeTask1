@@ -44,6 +44,22 @@ Console.WriteLine("The maximum number is: " + max4);
 -3 -> нет
 7 -> нет
 */
+/*
 Console.Write("Enter any integer number: ");
 int num6 = Convert.ToInt32(Console.ReadLine());
 Console.WriteLine("This number is " + ((num6 % 2 == 0)? "even": "odd"));
+*/
+
+/*
+Задача 8: Напишите программу, которая на вход принимает число (N), а на выходе показывает все чётные числа от 1 до N.
+5 -> 2, 4
+8 -> 2, 4, 6, 8
+*/
+
+Console.Write("Please, enter N: ");
+int numN = Convert.ToInt32(Console.ReadLine());
+int i = 1;
+while(i++ < numN)
+    Console.Write(i++ + " ");
+
+
